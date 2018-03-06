@@ -1,0 +1,6 @@
+package: consul-checks-slack
+import:
+- package: github.com/hashicorp/consul
+  version: ^1.0.6
+  subpackages:
+  - api
