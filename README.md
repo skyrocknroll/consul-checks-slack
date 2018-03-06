@@ -5,9 +5,12 @@
 ### Help 
 ```
 ./consul-checks-slack -h:
-     -interval int
-           Periodic check interval in seconds (default 60)
-     -slack-url string
-           Use Slack incoming integration url (default "https://hooks.slack.com/services/xxxx/yyyyy/zzzzzzz")
+    -check-interval int
+        	Periodic check interval in seconds (default 60)
+      -slack-url string
+        	Use Slack incoming integration url (default "https://hooks.slack.com/services/xxxx/yyyy/zzzzzz")
+      -wait-interval int
+        	Greater than this period is considered as check failure seconds (default 300)
+
 ```
 
